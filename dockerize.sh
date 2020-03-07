@@ -1,9 +1,9 @@
 #!/bin/sh
 
-echo $1
+docker-compose build
 
-if [ -d "$1" ]
-then
-    echo "$1 exists on your filesystem."
-fi
-# cp . $args
+docker-compose up -d --remove-orphans
+
+docker-compose exec app cp .env.dockerizer.local .env
+
+docker-compose exec app php artisan key:generage
