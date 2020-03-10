@@ -5,11 +5,15 @@ then
     if [ -d "../$project_path" ]
     then
         echo path exist $project_path
-        cp -r . ../$project_path/
+        cp docker-compose.yml ../$project_path/
+        cp DockerFile ../$project_path/
+        cp dockerize.sh ../$project_path/
     fi
 fi
 
-if [ ! "$project_path" ]
+if [ ! "$project_path" & "../artisan" ]
 then
-    cp -r . ../
+    cp docker-compose.yml ../
+    cp DockerFile ../
+    cp dockerize.sh ../
 fi
