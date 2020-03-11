@@ -2,6 +2,10 @@
 
 ## First install
 
+- Clone the repository into your project
+    > **SSH**: `git clone git@github.com:transprime-research/laravel-dockerizer.git`
+    > **HTTP**: `git clone https://github.com/transprime-research/laravel-dockerizer.git`
+
 - Run the bash file `setup.sh` using any bash command that fits your os
 
 Common ones are 
