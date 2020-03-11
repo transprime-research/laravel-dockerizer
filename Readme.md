@@ -1,6 +1,6 @@
 # Laravel Dockerizer
 
-You want to use docker, and add it into you laravel project immediately. Add, yes add docker to your Laravel. And continue your development.
+You want to use docker, and add it into you laravel project immediately? Add, yes add docker to your Laravel. And continue your development.
 
 ## First install
 
@@ -19,7 +19,7 @@ Common ones are
 
 After this `docker-compose.yml`, `Dockerfile`, and `dockerizer.sh` should already be moved to your project's directory.
 
-Then `cd ..` into your project, and run bash commad against `dockerizer.sh`.
+Then `cd ..` into your project, and run bash command against `dockerizer.sh`.
 
 After that go to `localhost:8070`
 
