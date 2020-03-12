@@ -1,3 +1,5 @@
+#!/bin/sh
+
 project_path=$1
 
 if [ "$project_path" ]
@@ -11,6 +13,17 @@ fi
 
 if [ ! "$project_path"] & [ -f "../artisan" ]
 then
-    echo "Artisan exists"
-    cp -vRT src/ ../
+    echo "Laravel artisan exists"
+
+    if [ "$(uname)" = "Darwin" ]
+    then
+        echo 'Running on Mac OS X'
+        cp -vR src/ ../
+    fi
+
+    if [ ! "$(uname)" = "Darwin" ]
+    then
+        cp -vRT src/ ../
+        echo 'Running on non Mac OS X'
+    fi
 fi
