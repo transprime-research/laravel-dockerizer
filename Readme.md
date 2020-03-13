@@ -1,5 +1,7 @@
-# Laravel Dockerizer
 
+<img src="https://github.com/omitobi/assets/blob/master/laravel-dockerizer/facebook_cover_photo_2.png" height="300" align="center" width="100%">
+
+### About Laravel Dockerizer
 You want to use docker and add it into yor laravel project immediately? Add, yes add docker to your Laravel. And simply continue your development.
 
 ## First install
