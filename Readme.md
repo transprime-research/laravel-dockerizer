@@ -2,7 +2,7 @@
 <img src="https://github.com/omitobi/assets/blob/master/laravel-dockerizer/facebook_cover_photo_2.png" height="300" align="center" width="100%">
 
 ### About Laravel Dockerizer
-You want to use docker and add it into yor laravel project immediately? Add, yes add docker to your Laravel. And simply continue your development.
+You want to use docker and add it into your laravel project immediately? Add, yes add docker to your Laravel. And simply continue your development.
 
 ## First install
 
@@ -11,7 +11,7 @@ You want to use docker and add it into yor laravel project immediately? Add, yes
 
     > **HTTP**: `git clone https://github.com/transprime-research/laravel-dockerizer.git`
 
-- Cd into `laravel-docker` directory, and run the bash file `setup.sh` using any bash command that fits your os
+- Cd into `laravel-dockerizer` directory, and run the bash file `setup.sh` using any bash command that fits your os
 
 Common ones are 
 
