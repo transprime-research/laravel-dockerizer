@@ -6,6 +6,8 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: app
+    env_file:
+      - ./.env.dockerizer.local
     restart: unless-stopped
     tty: true
     working_dir: /var/www/html
